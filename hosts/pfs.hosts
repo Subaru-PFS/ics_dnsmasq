@@ -1,5 +1,4 @@
-# A listing of all the _name_ bindings for PFS. The machine bindings are kept in 
-# the DHCP server files.
+# A listing of the _name_ bindings for non-piepan PFS hosts.
 
 10.1.1.1 tron core data
 
