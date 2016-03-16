@@ -1,0 +1,20 @@
+# IDG test hosts
+#
+# b9 is the system in the main lab
+# r9 is the system in the Optics lab.
+#
+10.1.81.3 bee-b8
+10.1.81.4 pcm-b8
+10.1.81.5 cooler-b8
+10.1.81.6 temps-b8
+
+10.1.91.3 bee-b9
+10.1.91.4 pcm-b9
+10.1.91.5 cooler-b9
+10.1.91.6 temps-b9
+
+10.1.92.3 bee-r9
+10.1.92.4 pcm-r9
+10.1.92.5 cooler-r9
+10.1.92.6 temps-r9
+

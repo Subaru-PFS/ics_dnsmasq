@@ -1,0 +1,18 @@
+# All the spectro #2 hosts.
+
+10.1.21.3 bee-b2
+10.1.21.4 pcm-b2
+10.1.21.5 cooler-b2
+10.1.21.6 temps-b2
+
+10.1.22.3 bee-r2
+10.1.22.4 pcm-r2
+10.1.22.5 cooler-r2
+10.1.22.6 temps-r2
+
+10.1.23.3 bee-n2
+10.1.23.4 pcm-n2
+10.1.23.5 cooler-n2
+10.1.23.6 temps-n2
+10.1.23.7 sam-n2
+10.1.23.8 cooler2-n2

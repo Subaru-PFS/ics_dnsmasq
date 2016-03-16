@@ -1,0 +1,19 @@
+# All the spectro #3 hosts.
+
+10.1.31.3 bee-b3
+10.1.31.4 pcm-b3
+10.1.31.5 cooler-b3
+10.1.31.6 temps-b3
+
+10.1.32.3 bee-r3
+10.1.32.4 pcm-r3
+10.1.32.5 cooler-r3
+10.1.32.6 temps-r3
+
+10.1.33.3 bee-n3
+10.1.33.4 pcm-n3
+10.1.33.5 cooler-n3
+10.1.33.6 temps-n3
+10.1.33.7 sam-n3
+10.1.33.8 cooler2-n3
+
