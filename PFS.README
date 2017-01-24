@@ -1,7 +1,7 @@
 # This dnsmasq configuration is intended to:
 # 
-#  - assign static hostname to IP address bindings, and support creating
-#    an /etc/hosts file from that mapping we might want to turn DNS off
+#  - assign static hostname to IP address bindings. Support creating
+#    an /etc/hosts file from that mapping, as we might want to turn DNS off
 #    in production.
 #    
 #  - manage hostname to MAC address bindings, so that hardware can be
@@ -26,12 +26,12 @@
 # _MUST_ start with 127.0.0.1.
 # 
 #  - pfs.conf: the top-level configuration. If 10.1/16 is not
-#    acceptable, globally reaplace 10.1. with something preferable for
+#    acceptable, globally replace 10.1. with something preferable for
 #    the site.
 # 
 #  - hosts/: a directory of hosts files. These can be catted together to
 #    make a static /etc/hosts file. If 10.1/16 is not
-#    acceptable, globally reaplace 10.1. with something preferable for
+#    acceptable, globally replace 10.1. with something preferable for
 #    the site.
 # 
 #  - machine.conf. Names the network interface and the external
