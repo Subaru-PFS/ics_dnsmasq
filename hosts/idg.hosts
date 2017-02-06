@@ -1,8 +1,15 @@
 # IDG test hosts
 #
-# b9 is the system in the main lab
+# b9 is the bench system in the main lab
 # r9 is the system in the Optics lab.
 # b8 is for testing individual bits and pieces.
+# sp7 is the rack in the main lab. New cryostats will be
+#   connected there for checkout.
+
+10.1.72.3 bee-r7
+10.1.72.4 pcm-r7
+10.1.72.5 cooler-r7
+10.1.72.6 temps-r7
 
 10.1.81.3 bee-b8
 10.1.81.4 pcm-b8
@@ -28,6 +35,9 @@
 10.1.93.6 temps-n9
 10.1.93.7 sam-n9
 10.1.93.8 cooler2-n9
+
+# Should be the following -- FIX at leisure.
+#10.1.70.2 moxa-sp7
 
 10.1.80.2 moxa-sp8
 10.1.90.2 moxa-sp9
