@@ -1,30 +1,12 @@
-# A listing of all the _name_ bindings for PFS. The machine bindings are kept in 
-# the DHCP server files.
+# A listing of the _name_ bindings for non-piepan PFS hosts.
 
-# see lam.hosts for this
-#10.1.1.1 tron core data
-#
+10.1.1.1 tron core data
 
-10.1.11.3 bee-b1
-10.1.11.4 pcm-b1
-10.1.11.5 cooler-b1
-10.1.11.6 temps-b1
+# The MOXA connected to the roughing pumps and their gauges.
+10.1.1.100 moxa-rough-1
 
-10.1.12.3 bee-r1
-10.1.12.4 pcm-r1
-10.1.12.5 cooler-r1
-10.1.12.6 temps-r1
-
-10.1.13.3 bee-n1
-10.1.13.4 pcm-n1
-10.1.13.5 cooler-n1
-10.1.13.6 temps-n1
-
-10.1.92.3 bee-r9
-10.1.92.4 pcm-r9
-10.1.92.5 cooler-r9
-10.1.92.6 temps-r9
-
+# These have been renamed/renumbered into hosts/spectro1 after they
+# were shipped to LAM. So we need to be careful, and only delete these
+# lines when the LAM config has been updated and tested.
 10.1.1.91 moxa-rack-1
 10.1.1.152 switch-rack-1
-
