@@ -8,7 +8,7 @@ dhcp-hostsdir=macs-idg
 #hostsdir=hosts-subaru
 #hostsdir=hosts-idg
 #   OR:
-addn-hosts=hosts-subaru
+addn-hosts=hosts-10.1
 addn-hosts=hosts-idg
 
 
@@ -49,5 +49,3 @@ dhcp-host=moxa-sp7,00:90:e8:4a:59:5a,10.1.1.120
 dhcp-host=switch-sp7,b0:00:b4:52:05:1b,10.1.1.121
 
 dhcp-host=scope-mux,00:90:e8:58:29:db,10.1.1.51
-
-dhcp-host=bee-r9,00:d0:81:09:0d:90,set:pxe
