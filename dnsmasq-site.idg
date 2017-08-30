@@ -1,51 +1,30 @@
+# Only listen for DHCP/DNS on the internal interface.
+interface=eth1
+bind-interfaces
+
 domain=pfs,10.1.0.0/16
 local=/pfs/
 
-dhcp-hostsdir=macs
-dhcp-hostsdir=macs-idg
+dhcp-hostsfile=/etc/dnsmasq.d/macs
+dhcp-hostsfile=/etc/dnsmasq.d/macs-idg
 
 #   THIS:
 #hostsdir=hosts-subaru
 #hostsdir=hosts-idg
 #   OR:
-addn-hosts=hosts-10.1
-addn-hosts=hosts-idg
+addn-hosts=/etc/dnsmasq.d/hosts-10.1
+addn-hosts=/etc/dnsmasq.d/hosts-idg
 
 
 # Give all project-assigned hosts infinite times. 
 # The interface name here will probably need to be set per site.
 dhcp-range=tag:!known,10.1.255.2,10.1.255.254,5m
-dhcp-range=10.1.1.0,10.1.99.255,static,4h
+dhcp-range=tag:known,10.1.1.1,10.1.99.254,4h
 
 # Unfortunately this cannot be a name.
 dhcp-option=option:ntp-server,10.1.1.1
-
-# Only listen for DHCP/DNS on the internal interface.
-interface=eth1
-bind-interfaces
 
 server=8.8.8.8
 server=8.8.4.4
 
 txt-record=pfs-site,J
-
-################################################################
-
-# Move these out later
-# Bindings for networked lab gear in the IDG lab.
-
-dhcp-host=scope,08:00:11:1f:a8:cc,10.1.1.52
-dhcp-host=hpfg,08:00:11:1c:21:46,10.1.1.20
-dhcp-host=ampSwitch,00:80:a3:a3:64:e8,10.1.1.21
-
-dhcp-host=idocs,b8:27:eb:c8:3a:c9,10.1.1.10
-dhcp-host=lakeshore,00:40:9d:76:f2:57,10.1.255.249
-
-dhcp-host=pfs-hx,80:ee:73:b0:3b:10,10.1.1.110
-dhcp-host=optics-power,00:90:c2:ce:24:4f,10.1.1.111
-
-# Should be renumbered to 10.1.70.xx -- see idg.hosts.
-dhcp-host=moxa-sp7,00:90:e8:4a:59:5a,10.1.1.120
-dhcp-host=switch-sp7,b0:00:b4:52:05:1b,10.1.1.121
-
-dhcp-host=scope-mux,00:90:e8:58:29:db,10.1.1.51

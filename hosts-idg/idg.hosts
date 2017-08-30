@@ -25,6 +25,8 @@
 10.1.91.6 temps-b9
 
 10.1.92.3 bee-r9
+
+# For Murdock, left on IDG network
 192.168.1.58 pcm-r9
 10.1.92.5 cooler-r9
 10.1.92.6 temps-r9
@@ -36,9 +38,24 @@
 10.1.93.7 sam-n9
 10.1.93.8 cooler2-n9
 
-# Should be the following -- FIX at leisure.
-#10.1.70.2 moxa-sp7
 
 10.1.80.2 moxa-sp8
 10.1.90.2 moxa-sp9
 
+10.1.1.52 scope
+10.1.1.51 scope-mux
+
+10.1.1.20 hpfg
+10.1.1.21 ampSwitch
+ 
+10.1.1.10 idocs
+10.1.255.249 lakeshore
+ 
+10.1.1.110 pfs-hx
+10.1.1.111 optics-power
+ 
+# Should be the following -- FIX at leisure.
+#10.1.70.1 switch-sp7
+#10.1.70.2 moxa-sp7
+10.1.1.120 moxa-sp7
+10.1.1.121 switch-sp7
