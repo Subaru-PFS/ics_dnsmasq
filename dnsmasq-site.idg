@@ -1,6 +1,17 @@
 domain=pfs,10.1.0.0/16
 local=/pfs/
 
+dhcp-hostsdir=macs
+dhcp-hostsdir=macs-idg
+
+#   THIS:
+#hostsdir=hosts-subaru
+#hostsdir=hosts-idg
+#   OR:
+addn-hosts=hosts-subaru
+addn-hosts=hosts-idg
+
+
 # Give all project-assigned hosts infinite times. 
 # The interface name here will probably need to be set per site.
 dhcp-range=tag:!known,10.1.255.2,10.1.255.254,5m
