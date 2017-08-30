@@ -1,5 +1,26 @@
-txt-record=pfs-site.pfs,J
+domain=pfs,10.1.0.0/16
+local=/pfs/
 
+# Give all project-assigned hosts infinite times. 
+# The interface name here will probably need to be set per site.
+dhcp-range=tag:!known,10.1.255.2,10.1.255.254,5m
+dhcp-range=10.1.1.0,10.1.99.255,static,4h
+
+# Unfortunately this cannot be a name.
+dhcp-option=option:ntp-server,10.1.1.1
+
+# Only listen for DHCP/DNS on the internal interface.
+interface=eth1
+bind-interfaces
+
+server=8.8.8.8
+server=8.8.4.4
+
+txt-record=pfs-site,J
+
+################################################################
+
+# Move these out later
 # Bindings for networked lab gear in the IDG lab.
 
 dhcp-host=scope,08:00:11:1f:a8:cc,10.1.1.52
