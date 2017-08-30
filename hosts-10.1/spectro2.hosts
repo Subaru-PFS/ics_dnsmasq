@@ -20,3 +20,9 @@
 10.1.20.1 switch-sp2
 10.1.20.2 moxa-sp2
 
+# LAM ENU
+10.1.24.1 enu2
+
+# Fiber positioning sub-assbly
+10.1.24.2 fpsa2
+10.1.24.3 biasha2
