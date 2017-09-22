@@ -1,1 +1,29 @@
-# IPMU
+# 10.100.200.XXY assignment
+#  00 - 01 : External service 
+#  02 : (not assigned) CURRENTLY RESERVED
+#  03 : External service
+#  04 : VMs for normal works
+#  05 : (not assigned)
+#  06 : Landfill (lf0X)
+#  07 : Support devices
+#  08 : RasPi
+#  09 : SmallBox physical computers
+#  10 : VM host A (Dell)
+#  11 - 12 : ICS simulator (*-ics)
+#  13 : SPT simulator (*-spt)
+#  14 - 15 : VM host B (HP)
+#  16 : (not assigned)
+#  17 : (not assigned)
+#  18 - 19 : Network switch, APC UPS
+#  20 - 22 : VM host management cards, management devices
+#  23 - 25 : DHCP
+
+domain=pfs.ipmu.jp
+dhcp-range=eth0,10.100.200.1,10.100.200.229,24h
+dhcp-range=tag:!known,eth0,10.100.200.230,10.100.200.254,12h
+dhcp-option=option:router,10.100.200.4
+dhcp-option=option:ntp-server,157.82.226.81
+
+addn-hosts=/etc/dnsmasq.d/hosts-ipmu
+dhcp-hostsfile=/etc/dnsmasq.d/macs-ipmu
+
