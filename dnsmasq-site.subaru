@@ -1,18 +1,16 @@
 domain=pfs.sum.subaru.nao.ac.jp,133.40.164.0/23
 local=/pfs.sum.subaru.nao.ac.jp/
 
-# The DHCP MAC-hostname files
-dhcp-hostsdir=macs
-
 # The hostname-IP files
-addn-hosts=hosts-subaru
+addn-hosts=/etc/dnsmasq.d/hosts-subaru
 
 # Give all project-assigned hosts infinite times. 
 # The interface name here will probably need to be set per site.
 dhcp-range=tag:!known,133.40.165.193,133.40.165.254,5m
-dhcp-range=133.40.164.0,133.40.165.191.static,4h
+dhcp-range=133.40.164.0,133.40.165.191,static,4h
 
 # Unfortunately this cannot be a name.
+dhcp-option=option:router,133.40.164.1
 dhcp-option=option:ntp-server,133.40.164.1
 
 #server=
