@@ -19,3 +19,10 @@
 
 10.1.30.1 switch-sp3
 10.1.30.2 moxa-sp3
+
+# LAM ENU
+10.1.34.1 enu3
+
+# Fiber positioning sub-assbly
+10.1.34.2 fpsa3
+10.1.34.3 biasha3

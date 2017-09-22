@@ -19,3 +19,10 @@
 
 10.1.40.1 switch-sp4
 10.1.40.2 moxa-sp4
+
+# LAM ENU
+10.1.44.1 enu4
+
+# Fiber positioning sub-assbly
+10.1.44.2 fpsa4
+10.1.44.3 biasha4

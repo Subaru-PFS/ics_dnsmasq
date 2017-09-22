@@ -1,0 +1,22 @@
+# Only listen for DHCP/DNS on the internal interface.
+interface=eth0
+bind-interfaces
+
+# hostname - MAC
+dhcp-hostsfile=/etc/dnsmasq.d/macs
+dhcp-hostsfile=/etc/dnsmasq.d/macs-lam
+
+# hostname - IP
+addn-hosts=/etc/dnsmasq.d/hosts-10.1
+addn-hosts=/etc/dnsmasq.d/hosts-lam
+
+dhcp-option=option:ntp-server,10.1.1.10
+dhcp-option=option:router,10.1.1.10
+
+# Split into tag:known and tag:!known?
+dhcp-range=eth0,10.1.1.2,10.1.254.254,15m
+
+server=195.221.212.14
+
+txt-record=pfs-site,L
+
