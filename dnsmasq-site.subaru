@@ -6,14 +6,15 @@ addn-hosts=/etc/dnsmasq.d/hosts-subaru
 
 # Give all project-assigned hosts infinite times. 
 # The interface name here will probably need to be set per site.
-dhcp-range=tag:!known,133.40.165.193,133.40.165.254,5m
-dhcp-range=133.40.164.0,133.40.165.191,static,4h
+dhcp-range=133.40.164.1,133.40.164.239,72h
+dhcp-range=tag:!known,133.40.164.240,133.40.164.255,6h
+dhcp-range=133.40.165.0,133.40.165.254,72h
 
 # Unfortunately this cannot be a name.
 dhcp-option=option:router,133.40.164.1
 dhcp-option=option:ntp-server,133.40.164.1
 
-#server=
+server=133.40.168.71
 
 # Give PFS hosts a way to determine how to name image files, etc.
 txt-record=pfs-site,S
