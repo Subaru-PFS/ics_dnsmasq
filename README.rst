@@ -1,35 +1,35 @@
+Overall
+======
+
+Refer documentation (`SSN-00028 in ics_doc repository <https://github.com/Subaru-PFS/ics_doc/tree/master/SSN-00028>`_) 
+for organization of directories and files. 
+Pushing to master is allowed, but it is recommended to follow the normal 
+procedure (ticket and PR) to push items into the site-wide (macs/ and 
+dnsmasq.conf) ad the production (hosts-subaru/ and dnsmasq-site.subaru), 
+to make decisions visible with reasons and discussions/reviews logged. 
+For installation at each site, 
+`Ansible role <https://github.com/Subaru-PFS/ics_ansible/tree/master/roles/dnsmasq>`_ 
+is provided, and it is recommended to configure using ansible if possible. 
+
+Target
+======
+
 This dnsmasq configuration is intended to:
 
-- assign static hostname to IP address bindings. Support creating
-   an /etc/hosts file from that mapping, as we might want to turn DNS off
-   in production.
-- manage hostname to MAC address bindings, so that hardware can be
-   pinned down and used for DHCP.
-- use a /16, where the first octet indicates the dewar or subsystem
-   and the second the individual host withing that group.
-- make all dewar groups look the same, in terms of the hostname and
-   IP addresses. The ops software depends on this.
-- provide local DNS resolution for the PFS hosts. The ops softwre
-   uses names.
-- support PXE booting: the DHCP options and the tftp server. The BEE
-   needs this, as might other systems.
+- Assign static hostname to IP address bindings. 
+- Manage hostname to MAC address bindings, so that hardware can be
+  pinned down and used for DHCP.
+- Provide local DNS resolution for the PFS hosts. The actor softwre
+  uses names.
+- Support PXE booting: the DHCP options and the tftp server. The BEE
+  needs this, as might other systems.
 
-The files in this directory should be self-contained and complete: the
-main dnsmasq.conf needs only name this directory.
+Notes
+=====
 
-The one significant external change is that your /etc/resolv.conf
-_MUST_ start with 127.0.0.1.
+- If you want to resolv using configurations in here on an host which hosts 
+  dnsmasq, you need to add 'server=' line(s) and set '127.0.0.1' in 
+  '/etc/resolv.conf' (or a configuration file your server read). 
+- To add/remove configuration in dnsmasq.conf or dnsmasq-site.\*, file a ticket 
+  and get reviews. 
 
-- pfs.conf: the top-level configuration. If 10.1/16 is not
-   acceptable, globally replace 10.1. with something preferable for
-   the site.
-- hosts/: a directory of hosts files. These can be catted together to
-   make a static /etc/hosts file. If 10.1/16 is not
-   acceptable, globally replace 10.1. with something preferable for
-   the site.
-- machine.conf. Names the network interface and the external
-   resolvers.
-- r1.conf, rack1.conf, etc.: MAC address bindings for the hostnames.
-
-
- 
