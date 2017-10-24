@@ -28,3 +28,6 @@ dhcp-lease-max=250
 addn-hosts=/etc/dnsmasq.d/hosts-ipmu
 dhcp-hostsfile=/etc/dnsmasq.d/macs-ipmu
 
+server=133.11.124.164
+server=133.11.123.45
+
