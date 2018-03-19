@@ -19,12 +19,16 @@
 #  23 - 25 : DHCP
 
 domain=pfs.ipmu.jp
-dhcp-range=eth0,10.100.200.1,10.100.200.229,24h
+dhcp-range=tag:known,eth0,10.100.200.1,10.100.200.229,24h
 dhcp-range=tag:!known,eth0,10.100.200.230,10.100.200.254,12h
 dhcp-option=option:router,10.100.200.4
-dhcp-option=option:ntp-server,157.82.226.81
+#dhcp-option=option:ntp-server,157.82.226.81
+dhcp-option=option:ntp-server,10.100.200.1
 dhcp-lease-max=250
 
 addn-hosts=/etc/dnsmasq.d/hosts-ipmu
 dhcp-hostsfile=/etc/dnsmasq.d/macs-ipmu
+
+server=133.11.124.164
+server=133.11.123.45
 
