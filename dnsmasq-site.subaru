@@ -12,7 +12,7 @@ dhcp-range=tag:known,133.40.165.0,133.40.165.254,72h
 
 # Unfortunately this cannot be a name.
 dhcp-option=option:router,133.40.164.1
-dhcp-option=option:ntp-server,133.40.164.1
+dhcp-option=option:ntp-server,133.40.164.50
 
 server=133.40.168.71
 
