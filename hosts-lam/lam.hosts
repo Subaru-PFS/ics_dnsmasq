@@ -24,18 +24,19 @@
 10.1.1.120 sac
 10.1.1.121 rtouch
 10.1.1.122 rsensor
-10.1.1.123 fsm-ctlr breva-ctlr
-10.1.1.124 fsm breva pfs-breva
-10.1.1.125 pfs-flow flow
-10.1.1.126 pfs-weather weather
-10.1.1.128 pfs-weather2 weather2
+10.1.1.123 breva-ctlr
+10.1.1.124 breva
+10.1.1.125 flow
+10.1.1.126 weather
+10.1.1.128 weather2
 10.1.1.129 engduino
-10.1.1.130 pfs-tetraduino tetraduino
-10.1.1.134 moxadcb pfs-moxadc
-10.1.1.135 pfs-arduitest arduitest
+10.1.1.130 tetraduino
+10.1.1.134 moxadcb
+10.1.1.135 arduitest
 10.1.1.160 sac2
 10.1.1.161 aten pdu
 10.1.1.162 intsph
+10.1.1.165 weather3
 
 # RGA
 10.1.1.163 rga
