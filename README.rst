@@ -5,7 +5,7 @@ Refer documentation (`SSN-00028 in ics_doc repository <https://github.com/Subaru
 for organization of directories and files. 
 Pushing to master is allowed, but it is recommended to follow the normal 
 procedure (ticket and PR) to push items into the site-wide (macs/ and 
-dnsmasq.conf) ad the production (hosts-subaru/ and dnsmasq-site.subaru), 
+dnsmasq.conf) and the production (hosts-subaru/ and dnsmasq-site.subaru), 
 to make decisions visible with reasons and discussions/reviews logged. 
 For installation at each site, 
 `Ansible role <https://github.com/Subaru-PFS/ics_ansible/tree/master/roles/dnsmasq>`_ 
