@@ -20,6 +20,7 @@
 
 # 10.100.201.XXY assignment
 #  00 - 02 : lf-nfs
+#  03      : device
 
 domain=pfs.ipmu.jp
 dhcp-range=tag:known,eth0,10.100.200.1,10.100.200.254,24h
