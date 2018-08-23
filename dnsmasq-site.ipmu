@@ -32,12 +32,13 @@ dhcp-range=tag:nia,eth0,10.100.201.128,10.100.201.191,12h
 dhcp-range=tag:!known,eth0,10.100.201.192,10.100.201.254,12h
 dhcp-option=option:router,10.100.200.4
 #dhcp-option=option:ntp-server,157.82.226.81
-dhcp-option=option:ntp-server,10.100.200.1
+dhcp-option=option:ntp-server,10.100.200.4
 dhcp-lease-max=250
 
 addn-hosts=/etc/dnsmasq.d/hosts-ipmu
 dhcp-hostsfile=/etc/dnsmasq.d/macs-ipmu
 
-server=133.11.124.164
+#server=133.11.124.164
+server=157.82.236.59
 server=133.11.123.45
 
