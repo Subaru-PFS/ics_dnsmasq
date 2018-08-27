@@ -16,7 +16,7 @@
 #  17 : (not assigned)
 #  18 - 19 : Network switch, APC UPS
 #  20 - 22 : VM host management cards, management devices
-#  23 - 25 : DHCP
+#  23 - 25 : (not assigned)
 
 # 10.100.201.XXY assignment
 #  00 - 02 : lf-nfs
@@ -24,6 +24,8 @@
 #  04      : unit server
 #  05      : VM host (e.g. dlc?-vm)
 #  06      : VM host management cards
+#  128-191 : DHCP with MAC known
+#  192-254 : DHCP
 
 domain=pfs.ipmu.jp
 dhcp-range=tag:known,eth0,10.100.200.1,10.100.200.254,24h
