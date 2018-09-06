@@ -12,7 +12,7 @@
 #  11 - 12 : ICS simulator (*-ics)
 #  13 : SPT simulator (*-spt)
 #  14 - 15 : VM host B (HP)
-#  16 : (not assigned)
+#  16 : landfill 2 (lf1X; debian buster)
 #  17 : (not assigned)
 #  18 - 19 : Network switch, APC UPS
 #  20 - 22 : VM host management cards, management devices
