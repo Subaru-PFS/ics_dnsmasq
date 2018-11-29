@@ -59,3 +59,7 @@
 #10.1.70.2 moxa-sp7
 10.1.1.120 moxa-sp7
 10.1.1.121 switch-sp7
+
+10.1.1.200 nirander
+10.1.1.101 moxa-rough-nir
+10.1.70.2 moxa-sm-nir
