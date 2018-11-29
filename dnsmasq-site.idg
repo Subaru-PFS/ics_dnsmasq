@@ -14,10 +14,9 @@ dhcp-hostsfile=/etc/dnsmasq.d/macs-idg
 addn-hosts=/etc/dnsmasq.d/hosts-10.1
 addn-hosts=/etc/dnsmasq.d/hosts-idg
 
-
 # Give all project-assigned hosts infinite times. 
 # The interface name here will probably need to be set per site.
-dhcp-range=tag:!known,10.1.255.2,10.1.255.254,5m
+dhcp-range=tag:!known,10.1.255.2,10.1.255.254,2m
 dhcp-range=tag:known,10.1.1.1,10.1.99.254,4h
 
 # Unfortunately this cannot be a name.
@@ -26,4 +25,5 @@ dhcp-option=option:ntp-server,10.1.1.1
 server=8.8.8.8
 server=8.8.4.4
 
+# Give PFS hosts a way to determine how to name image files, etc.
 txt-record=pfs-site,J
