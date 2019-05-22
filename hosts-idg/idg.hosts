@@ -30,10 +30,10 @@
 10.1.92.5 cooler-r9
 10.1.92.6 temps-r9
 
-10.1.83.3 bee-n9
-10.1.83.4 pcm-n9
-10.1.83.5 cooler-n9
-10.1.83.6 temps-n9
+10.1.83.3 bee-n8
+10.1.83.4 pcm-n8
+10.1.83.5 cooler-n8
+10.1.83.6 temps-n8
 10.1.83.10 illuminati           # Illuminator pi3
 
 10.1.80.2 moxa-sp8
