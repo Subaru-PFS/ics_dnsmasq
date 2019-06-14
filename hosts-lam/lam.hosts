@@ -3,17 +3,20 @@
 
 # the pfs ait server = this machine localhost
 
-10.1.1.10 ait-server data
+10.1.1.10 ait-server nfs-software
 
 #Freenas
 10.1.1.15 freenas nas
 
 # Jupyter notebook
-10.1.1.11 jupyter notebook
+10.1.1.11 jupyter
+10.1.1.12 mario jlab
 
 # Workstation
 10.1.1.111 ws1
 10.1.1.112 ws2
+10.1.1.113 cappy
+10.1.1.114 pfs-wsf ics-prod
 
 # laptop
 10.1.1.131 pcp-pfs1
@@ -24,33 +27,21 @@
 10.1.1.120 sac
 10.1.1.121 rtouch
 10.1.1.122 rsensor
-10.1.1.123 breva-ctlr
+10.1.1.123 breva-ctlr,fsm-ctlr
 10.1.1.124 breva
 10.1.1.125 flow
 10.1.1.126 weather
-10.1.1.128 weather2
+10.1.1.127 weather2
+10.1.1.128 weather3
 10.1.1.129 engduino
 10.1.1.130 tetraduino
-10.1.1.134 moxadcb
+10.1.1.134 moxa-srv
 10.1.1.135 arduitest
+10.1.1.136 moxa-dcb,moxa-aitrack
 10.1.1.160 sac2
-10.1.1.161 aten pdu
-10.1.1.162 intsph
-10.1.1.165 weather3
+10.1.1.161 aten
+10.1.1.166 lake1
 
 # RGA
 10.1.1.163 rga
 10.1.1.164 rga-pc
-
-##### The following is all from pfs-ait-server /etc/hosts
-
-# Workstation
-10.1.1.111 ws1
-10.1.1.112 ws2
-
-# AIT equipment
-10.1.1.120 sac
-10.1.1.121 rtouch
-10.1.1.122 rsensor
-10.1.1.123 fsm
-
