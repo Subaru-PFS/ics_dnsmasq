@@ -19,8 +19,8 @@
 10.1.43.7 gauge-n4
 10.1.43.8 cooler2-n4
 
-10.1.40.1 switch-sp4
-10.1.40.2 moxa-sp4
+10.1.40.1 switch-sm4
+10.1.40.2 moxa-sm4
 
 # LAM ENU
 10.1.44.1 enu4
@@ -32,7 +32,7 @@
 10.1.44.3 biasha-enu4
 
 ## OBA Temperature
-10.1.44.4 temps-sp4
+10.1.44.4 temps-sm4
 
 ## LAM MOXA
 10.1.44.5 moxa-enu4
