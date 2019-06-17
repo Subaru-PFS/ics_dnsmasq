@@ -25,6 +25,17 @@
 # LAM ENU
 10.1.34.1 enu3
 
-# Fiber positioning sub-assbly
-10.1.34.2 fpsa3
-10.1.34.3 biasha3
+## HEXAPOD-SLIT
+10.1.34.2 slit-enu3
+
+## BIA-SHUTTER BOARD
+10.1.34.3 biasha-enu3
+
+## OBA Temperature
+10.1.34.4 temps-sp3
+
+## LAM MOXA
+10.1.34.5 moxa-enu3
+
+## ENU PDU
+10.1.34.6 pdu-enu3
