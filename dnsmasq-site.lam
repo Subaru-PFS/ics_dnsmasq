@@ -2,6 +2,10 @@
 interface=eth0
 bind-interfaces
 
+# Make all our hosts resolvable as both $host and $host.pfs.
+domain=pfs,10.1.0.0/16
+local=/pfs/
+
 # hostname - MAC
 dhcp-hostsfile=/etc/dnsmasq.d/macs-lam
 
@@ -13,7 +17,8 @@ dhcp-option=option:ntp-server,10.1.1.10
 dhcp-option=option:router,10.1.1.10
 
 # Split into tag:known and tag:!known?
-dhcp-range=eth0,10.1.1.2,10.1.254.254,15m
+dhcp-range=tag:!known,10.1.255.2,10.1.255.254,2m
+dhcp-range=tag:known,10.1.1.1,10.1.99.254,4h
 
 server=195.221.212.14
 
