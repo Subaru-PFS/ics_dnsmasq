@@ -8,5 +8,6 @@
 # These have been renamed/renumbered into hosts/spectro1 after they
 # were shipped to LAM. So we need to be careful, and only delete these
 # lines when the LAM config has been updated and tested.
-10.1.1.91 moxa-rack-1
-10.1.1.152 switch-rack-1
+
+#10.1.1.91 moxa-rack-1
+#10.1.1.152 switch-rack-1
