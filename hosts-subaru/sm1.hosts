@@ -1,0 +1,28 @@
+# All the spectro module #1 hosts.
+
+133.40.165.1 bee-b1
+133.40.165.2 pcm-b1
+133.40.165.3 cooler-b1
+133.40.165.4 temps-b1
+133.40.165.5 gauge-b1
+
+133.40.165.6 bee-r1
+133.40.165.7 pcm-r1
+133.40.165.8 cooler-r1
+133.40.165.9 temps-r1
+133.40.165.10 gauge-r1
+
+133.40.165.11 bee-n1
+133.40.165.12 pcm-n1
+133.40.165.13 cooler-n1
+133.40.165.14 temps-n1
+133.40.165.15 cooler2-n1
+133.40.165.16 gauge-n1
+
+# Remove -enu1 names after commissioning tests.
+133.40.165.20 moxa-sm1
+133.40.165.21 slit-sm1 slit-enu1
+133.40.165.22 biasha-sm1 biasha-enu1
+133.40.165.23 pdu-sm1 pdu-enu1
+133.40.165.24 temps-sm1
+133.40.165.25 moxa-enu1         # Second MOXA, for bench things?
