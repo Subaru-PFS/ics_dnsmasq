@@ -1,6 +1,6 @@
 # All the xx-ics hosts aas defined and used at Subaru. If we use the same
 # names, the actor config files can be used unchanged when delivered.
-10.1.1.1 mhs-ics rack5-ics db-ics actors-ics tron
+10.1.1.1 mhs-ics rack5-ics db-ics actors-ics nfs-ics tron data-nfs software-nfs
 
 # The MOXA connected to the roughing pumps and their gauges.
 10.1.1.100 moxa-rough

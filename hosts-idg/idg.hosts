@@ -47,3 +47,6 @@
 # The netBooters we use to control ionpump power in the optics lab
 10.1.82.100 power-r8
 10.1.83.100 power-n8
+
+# The PI for the Meade and LED hedgehog in the NIR cleanroom
+192.168.1.12 gimbalpi
