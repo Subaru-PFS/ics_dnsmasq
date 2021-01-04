@@ -1,6 +1,6 @@
 # A listing of the _name_ bindings for non-piepan PFS hosts.
 
-10.1.1.1 mhs-ics db-ics tron mhs core
+#10.1.1.1 mhs-ics db-ics tron mhs core
 
 # The MOXA connected to the roughing pumps and their gauges.
 

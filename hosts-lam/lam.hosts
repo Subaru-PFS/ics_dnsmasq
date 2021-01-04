@@ -3,7 +3,7 @@
 
 # the pfs ait server = this machine localhost
 
-10.1.1.10 ait-server nfs-software nfs-ics
+#10.1.1.10 ait-server nfs-software nfs-ics
 
 #Freenas
 10.1.1.15 freenas nas
@@ -19,7 +19,7 @@
 10.1.1.111 ws1
 10.1.1.112 ws2
 10.1.1.113 cappy
-10.1.1.114 pfs-wsf rack5-ics actors-ics
+#10.1.1.114 pfs-wsf rack5-ics actors-ics
 
 # laptop
 10.1.1.131 pcp-pfs1
