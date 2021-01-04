@@ -3,7 +3,7 @@
 
 # the pfs ait server = this machine localhost
 
-10.1.1.10 ait-server nfs-software
+10.1.1.10 ait-server nfs-software nfs-ics
 
 #Freenas
 10.1.1.15 freenas nas
@@ -12,11 +12,14 @@
 10.1.1.11 jupyter
 10.1.1.12 mario jlab
 
+# drp
+10.1.1.17 luigi
+
 # Workstation
 10.1.1.111 ws1
 10.1.1.112 ws2
 10.1.1.113 cappy
-10.1.1.114 pfs-wsf ics-prod
+10.1.1.114 pfs-wsf rack5-ics actors-ics
 
 # laptop
 10.1.1.131 pcp-pfs1
@@ -27,7 +30,7 @@
 10.1.1.120 sac
 10.1.1.121 rtouch
 10.1.1.122 rsensor
-10.1.1.123 breva-ctlr,fsm-ctlr
+10.1.1.123 breva-ctlr fsm-ctlr
 10.1.1.124 breva
 10.1.1.125 flow
 10.1.1.126 weather
@@ -37,7 +40,6 @@
 10.1.1.130 tetraduino
 10.1.1.134 moxa-srv
 10.1.1.135 arduitest
-10.1.1.136 moxa-dcb,moxa-aitrack
 10.1.1.160 sac2
 10.1.1.161 aten
 10.1.1.166 lake1

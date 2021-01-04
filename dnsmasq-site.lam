@@ -18,7 +18,7 @@ dhcp-option=option:router,10.1.1.10
 
 # Split into tag:known and tag:!known?
 dhcp-range=tag:!known,10.1.255.2,10.1.255.254,2m
-dhcp-range=tag:known,10.1.1.1,10.1.99.254,4h
+dhcp-range=tag:known,10.1.1.1,10.1.99.254,2m #4h
 
 server=195.221.212.14
 

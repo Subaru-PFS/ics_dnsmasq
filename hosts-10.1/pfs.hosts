@@ -1,5 +1,11 @@
 # A listing of the _name_ bindings for non-piepan PFS hosts.
 
+10.1.1.1 mhs-ics db-ics tron mhs core
+
+# The MOXA connected to the roughing pumps and their gauges.
+
+#10.1.1.100 moxa-rough-1 moxa-rough
+
 # These have been renamed/renumbered into hosts/spectro1 after they
 # were shipped to LAM. So we need to be careful, and only delete these
 # lines when the LAM config has been updated and tested.
