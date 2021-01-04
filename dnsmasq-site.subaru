@@ -1,6 +1,9 @@
 domain=pfs.sum.subaru.nao.ac.jp,133.40.164.0/23
 local=/pfs.sum.subaru.nao.ac.jp/
 
+# site-wide MAC address pairs (ones delivered to Subaru)
+dhcp-hostsfile=/etc/dnsmasq.d/macs
+
 # The hostname-IP files
 addn-hosts=/etc/dnsmasq.d/hosts-subaru
 
