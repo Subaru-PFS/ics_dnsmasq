@@ -38,7 +38,8 @@
  
 10.1.1.110 pfs-hx
 10.1.1.111 optics-power
- 
+10.1.1.112 win-hx
+
 10.1.1.200 nirander
 10.1.1.199 switch-nir
 10.1.1.101 moxa-rough-nir
@@ -50,3 +51,6 @@
 
 # The PI for the Meade and LED hedgehog in the NIR cleanroom
 192.168.1.12 gimbalpi
+
+# The PI for the single LED illuminator on the front plate
+192.168.1.120 platepi
