@@ -9,7 +9,6 @@
 10.1.1.15 freenas nas
 
 # Jupyter notebook
-10.1.1.11 jupyter
 10.1.1.12 mario jlab
 
 # drp
@@ -19,7 +18,6 @@
 10.1.1.111 ws1
 10.1.1.112 ws2
 10.1.1.113 cappy
-#10.1.1.114 pfs-wsf rack5-ics actors-ics
 
 # laptop
 10.1.1.131 pcp-pfs1
