@@ -6,7 +6,7 @@
 #10.1.1.10 ait-server nfs-software nfs-ics
 
 #Freenas
-10.1.1.15 freenas nas
+10.1.1.15 freenas nas data-nfs
 
 # Jupyter notebook
 10.1.1.12 mario jlab
