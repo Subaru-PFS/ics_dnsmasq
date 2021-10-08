@@ -54,7 +54,7 @@
 10.1.83.100 power-n8
 
 # The PI for the Meade and LED hedgehog in the NIR cleanroom
-192.168.1.246 gimbalpi
+172.16.0.228 gimbalpi
 
 # The PI for the single LED illuminator on the front plate
 192.168.1.120 platepi
