@@ -57,7 +57,7 @@
 172.16.0.228 gimbalpi
 
 # The PI for the single LED illuminator on the front plate
-192.168.1.120 platepi
+172.16.0.162 platepi
 
-# A development temps board
-192.168.1.3 temps-idg
+# The PC in the optics lab for controlling the monochrometer, etc.
+172.16.0.121 wenzel
