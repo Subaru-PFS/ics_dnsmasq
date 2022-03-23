@@ -49,6 +49,10 @@
 10.1.1.201 nipmi
 10.1.1.203 nip
 
+# Power supply in optics lab
+10.1.1.204 n8psu
+
+
 # The netBooters we use to control ionpump power in the optics lab
 10.1.82.100 power-r8
 10.1.83.100 power-n8
@@ -61,3 +65,4 @@
 
 # The PC in the optics lab for controlling the monochrometer, etc.
 172.16.0.121 wenzel
+
