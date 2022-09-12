@@ -66,3 +66,5 @@
 # The PC in the optics lab for controlling the monochrometer, etc.
 172.16.0.121 wenzel
 
+# Second temps board for NIR thermal tests
+10.1.33.9 temps2-n3
