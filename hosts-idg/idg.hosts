@@ -68,3 +68,6 @@
 
 # Second temps board for NIR thermal tests
 10.1.33.9 temps2-n3
+
+# mini ionpump controller on n8
+10.1.255.166 ionpump-n8
