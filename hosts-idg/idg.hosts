@@ -22,13 +22,17 @@
 10.1.83.4 pcm-n8
 10.1.83.5 cooler-n8
 10.1.83.6 temps-n8
+10.1.83.7 gauge-n8
 10.1.83.10 illuminati           # Illuminator pi3
+
+# mini ionpump controller on n8
+10.1.83.11 ionpump-n8
 
 10.1.80.2 moxa-sp8
 10.1.90.2 moxa-sp9
 
 10.1.1.52 scope
-10.1.1.51 scope-mux
+10.1.1.51 moxa-b9 scope-mux 
 
 10.1.1.20 hpfg
 10.1.1.21 ampSwitch
@@ -69,5 +73,3 @@
 # Second temps board for NIR thermal tests
 10.1.33.9 temps2-n3
 
-# mini ionpump controller on n8
-10.1.255.166 ionpump-n8
