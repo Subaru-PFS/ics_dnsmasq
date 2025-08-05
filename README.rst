@@ -1,7 +1,7 @@
 Overall
-======
+=======
 
-Refer documentation (`SSN-00028 in ics_doc repository <https://github.com/Subaru-PFS/ics_doc/tree/master/SSN-00028>`_) 
+Refer documentation (`SSN-00028 in ics_doc repository <https://github.com/Subaru-PFS/ics_doc/tree/master/SoftwareStudyNote/SSN-00028>`_) 
 for organization of directories and files. 
 Pushing to master is allowed, but it is recommended to follow the normal 
 procedure (ticket and PR) to push items into the site-wide (macs/ and 
